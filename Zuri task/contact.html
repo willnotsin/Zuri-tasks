@@ -1,0 +1,70 @@
+<!-- A form with Name, email, message and submit button -->
+<!-- A button for linking the registration page, maybe "Don't have an account?, register" -->
+<!-- Send whatever is filled to my mail -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="zuri.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-links" id='navLinks'>
+                <a href="about.html"><img src="rooster1.png" alt="logo"></a>
+                <ul>
+                    <li><a href=login.html>LOGIN</a></li>
+                    <li><a href=registration.html>REGISTER</a></li>
+                    <li><a class="active" href=contact.html>CONTACT</a></li>
+                    <li><a href=about.html>HOME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main style="padding:20px;margin-top:50px">
+        <fieldset class="container">
+            <form id="contact">
+                <table>
+                    <tr>
+                        <td colspan="2">
+                            <h1>Contact me</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="fname" minlength="2" maxlength="10" placeholder="First Name"
+                                required></td>
+                        <td><input type="text" id="lname" minlength="2" maxlength="10" placeholder="Last Name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" id="email" placeholder="E-mail" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><textarea name="Comment" id="comment" cols="40" rows="10"
+                                placeholder="Enter Remark Here..." required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input class="btn" type="submit" value="Submit"></td>
+                    </tr>
+                </table>
+
+                <p class="closing">
+                    <a href="registration.html" >Register</a>
+                    to receive updates from me, or
+                    <a href="login.html" > Login</a>
+                    to manage your preferences
+                </p>
+            </form>
+        </fieldset>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

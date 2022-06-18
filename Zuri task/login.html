@@ -1,0 +1,76 @@
+<!-- Email, password, sign in -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="zuri.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-links" id='navLinks'>
+                <a href="about.html"><img src="rooster1.png" alt="logo"></a>
+                <ul>
+                    <li><a class="active" href=login.html>LOGIN</a></li>
+                    <li><a href=registration.html>REGISTER</a></li>
+                    <li><a href=contact.html>CONTACT</a></li>
+                    <li><a href=about.html>HOME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <main style="padding:20px;margin-top:50px">
+        <fieldset class="container">
+            <form id="login" action="">
+                <table class="table">
+                    <tbody>
+                        <tr><td><h1>Sign in</h1></td></tr>
+                        <tr>
+                            <td><input type="email" id="email" placeholder="E-mail" required>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" id="password" placeholder="Password" required></td>
+                        </tr>
+                        <tr>
+                            <td><input class="btn" type="submit" value="Sign in"></td>
+                        </tr>
+                    </tbody>
+        
+                </table>
+                <div class="flex_container">
+
+                        <div>
+                            <input type="checkbox" name="remember me" id="remember">
+                            <span>Remember me</span>
+                        </div>
+                        <div id="pass">
+                            <a href="#" >Forgot Password?</a>
+                        </div>
+
+                </div>
+                <br>
+                <div>
+                    <span>
+                    Don't have an account?, 
+                    </span>
+                    <span>
+                        <a href="registration.html">Register.</a>
+                    </span>
+                </div>
+
+            </form>
+        </fieldset>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
